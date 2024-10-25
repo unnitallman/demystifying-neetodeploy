@@ -1,0 +1,14 @@
+{
+  "name": "ascii-art-server",
+  "version": "1.0.0",
+  "description": "A simple static server using serve to display an HTML file with ASCII art",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve -s . -l 4000"
+  },
+  "dependencies": {
+    "serve": "^14.0.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
